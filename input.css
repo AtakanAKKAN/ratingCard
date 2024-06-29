@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+  --light: #959eac;
+  --dark: #252d37;
+  --very-dark: #121417;
+}
+
+.list-item-number {
+  @apply bg-white/10 flex justify-center items-center size-10 rounded-full text-sm text-[#959eac] hover:bg-[#fb7413] transition-all duration-300 hover:text-[#121417] cursor-pointer pt-0.5;
+}
